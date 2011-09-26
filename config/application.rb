@@ -52,3 +52,6 @@ module WheresTheOnAfter
     end
   end
 end
+
+heroku_env = Rails.root.join('config', 'heroku_env.rb')
+load(heroku_env) if File.exists?(heroku_env)

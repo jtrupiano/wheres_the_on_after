@@ -1,0 +1,4 @@
+* Fix Heroku warnings
+* Fix rspec warnings
+* Make rake spec work
+* Use sandbox in development / test
