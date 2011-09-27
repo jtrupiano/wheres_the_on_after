@@ -3,7 +3,7 @@ source 'http://rubygems.org'
 gem 'decent_exposure', '1.0.1'
 gem 'rails', '3.1.0'
 gem 'sqlite3'
-gem 'twilio-rb', '2.0.1'
+gem 'twilio-rb', :git => 'git://github.com/jtrupiano/twilio-rb.git', :branch => 'rails3.1'
 
 group :production do
   gem 'pg', '0.11.0'
