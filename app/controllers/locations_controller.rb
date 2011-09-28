@@ -3,7 +3,7 @@ class LocationsController < ApplicationController
   expose(:outgoing_number) { '+18589265374' }
   expose(:body)            { "On after at Club 439" }
 
-  def index
+  def show
 
   end
 end
